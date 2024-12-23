@@ -148,7 +148,7 @@ export default function UserManagementTable({
                     <Button
                       variant="outline"
                       size="sm"
-                      className="border-[#3C3C3E] text-white hover:bg-[#3C3C3E] hover:text-white hover:border-[#3C3C3E]"
+                      className="bg-[#2C2C2E] border-[#3C3C3E] text-white hover:bg-[#3C3C3E] hover:text-white hover:border-[#3C3C3E]"
                     >
                       Join
                     </Button>

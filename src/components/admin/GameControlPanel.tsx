@@ -47,7 +47,7 @@ const GameControlPanel = ({
                 onCheckedChange={(checked) =>
                   checked ? onStartGame() : onStopGame()
                 }
-                className="bg-[#2C2C2E] data-[state=checked]:bg-[#007AFF]"
+                className="bg-[#2C2C2E] data-[state=checked]:bg-[#007AFF] data-[state=unchecked]:bg-[#2C2C2E]"
               />
               <Label className="text-[#8E8E93]">Auto Mode</Label>
             </div>
@@ -115,7 +115,7 @@ const GameControlPanel = ({
                 <Button
                   variant="outline"
                   size="icon"
-                  className="border-[#3C3C3E] text-[#8E8E93] hover:bg-[#2C2C2E] hover:text-white hover:border-[#3C3C3E]"
+                  className="bg-[#2C2C2E] border-[#3C3C3E] text-[#8E8E93] hover:bg-[#3C3C3E] hover:text-white hover:border-[#3C3C3E]"
                 >
                   <RefreshCw className="h-4 w-4" />
                 </Button>
